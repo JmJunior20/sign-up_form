@@ -121,6 +121,17 @@ input[type="submit"]:hover {
     text-decoration: underline;
 }
 
+.senha_link {
+    margin: -20px 0 30px 0;
+    font-size: 16px;
+    color: #666666;
+}
+
+.senha_link a {
+    color: #CD1212;
+    text-decoration: none;
+}
+
 /* .HomeAbout {
     width: 100%;
     height: 25%;

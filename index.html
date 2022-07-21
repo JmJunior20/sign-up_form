@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form Register</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <div class="center">
+        <h1>Cadastro</h1>
+        <form method="post" action="">
+          <div class="txt_field">
+            <input type="text" name="name" required />
+            <span></span>
+            <label>Nome</label>
+          </div>
+          <div class="txt_field">
+            <input type="emal" name="emal" required />
+            <span></span>
+            <label>Email</label>
+          </div>
+          <div class="txt_field">
+            <input type="password" name="password" required />
+            <span></span>
+            <label>Senha</label>
+          </div>
+          <div class="txt_field">
+            <input type="password" name="password" required />
+            <span></span>
+            <label>Confirme sua senha</label>
+          </div>
+          <input type="submit" name="submit" value="Cadastrar" />
+          <div class="signup_link">
+            Já tem conta? <a href="#">Login aqui</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
